@@ -130,8 +130,6 @@ python3 -m torch.distributed.launch --nproc_per_node=8 main_knn.py \
 
 ![SemAIM-visualization](./figures/visualization.png)
 
-We show example results for ImageNet validation set. Description of images from left to right: **(a)** the original image, **(b)** the attention map of ViT-iGPT, **(c)** the attention map of SAIM. SAIM focuses on the main information of the image, and obtains human-level attention representation with unlabeled data.
-
 Visualization of different autoregression orders. (a) input images, (b) raster order used in iGPT, (c) stochastic order used in SAIM, (d) similarity order (the similarity map is directly used as the autoregression order), and (e) semantic-aware order used in SemAIM. In (b)(c)(d)(e), the first column shows the self-attention maps from the last block, the second column shows similarity maps from the last block, and the last column shows the corresponding autoregression orders (more warm-colored patches are predicted first).
 The self-attention maps and the similarity maps of the semantic-aware order used in SemAIM locate on semantic regions more accurately than
 other methods. This indicates that SemAIM can learn more semantic representations.
