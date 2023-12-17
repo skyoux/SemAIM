@@ -145,7 +145,7 @@ SemAIM is released under the [MIT License](./LICENSE).
 ## Citation
 
 ```
-@inproceedings{qi2023exploring,
+@inproceedings{song2023semantic,
   title={Semantic-Aware Autoregressive Image Modeling for Visual Representation Learning},
   author={Song, Kaiyou and Zhang, Shan and Wang, Tong},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
