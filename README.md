@@ -1,5 +1,5 @@
 # SemAIM
-Official PyTorch Implementation of [Semantic-Aware Autoregressive Image Modeling for Visual Representation Learning](https://arxiv.org/abs/2312.xxxx), Accepted by AAAI 2024.
+Official PyTorch Implementation of [Semantic-Aware Autoregressive Image Modeling for Visual Representation Learning](https://arxiv.org/abs/2312.10457), Accepted by AAAI 2024.
 ## Introduction
 ![Pipeline](./figures/SemAIM.png)
 
@@ -145,14 +145,11 @@ SemAIM is released under the [MIT License](./LICENSE).
 ## Citation
 
 ```
-@inproceedings{song2023semantic,
+@article{song2023semantic,
   title={Semantic-Aware Autoregressive Image Modeling for Visual Representation Learning},
   author={Song, Kaiyou and Zhang, Shan and Wang, Tong},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={37},
-  number={2},
-  pages={2074--2081},
-  year={2024}
+  journal={arXiv preprint arXiv:2312.10457},
+  year={2023}
 }
 ```
 
