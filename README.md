@@ -115,7 +115,7 @@ python -m torch.distributed.launch --nproc_per_node 8 main_linprobe.py \
     --log_dir <log-directory --experiment exp0 \
 ```
 
-### Linear Probing
+### k-NN
 ```shell
 python3 -m torch.distributed.launch --nproc_per_node=8 main_knn.py \
 --model vit_large_patch16 --global_pool \
